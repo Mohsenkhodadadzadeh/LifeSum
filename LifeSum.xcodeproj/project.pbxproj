@@ -11,13 +11,44 @@
 		5B865EF9B4D1DA24788528F1 /* Pods_LifeSum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4474B18F76034BD8E7FAE5C /* Pods_LifeSum.framework */; };
 		82BF9035287963FA00D6E995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9034287963FA00D6E995 /* AppDelegate.swift */; };
 		82BF9037287963FA00D6E995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9036287963FA00D6E995 /* SceneDelegate.swift */; };
-		82BF9039287963FA00D6E995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9038287963FA00D6E995 /* ViewController.swift */; };
 		82BF903C287963FB00D6E995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF903A287963FA00D6E995 /* Main.storyboard */; };
 		82BF903E287963FE00D6E995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BF903D287963FE00D6E995 /* Assets.xcassets */; };
 		82BF9041287963FE00D6E995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BF903F287963FE00D6E995 /* LaunchScreen.storyboard */; };
 		82BF904C287963FE00D6E995 /* LifeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF904B287963FE00D6E995 /* LifeSumTests.swift */; };
 		82BF9056287963FE00D6E995 /* LifeSumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9055287963FE00D6E995 /* LifeSumUITests.swift */; };
 		82BF9058287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9057287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift */; };
+		82BF90662879747F00D6E995 /* AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90652879747F00D6E995 /* AnyView.swift */; };
+		82BF90682879749F00D6E995 /* AnyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90672879749F00D6E995 /* AnyInteractor.swift */; };
+		82BF906A287974B700D6E995 /* AnyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9069287974B700D6E995 /* AnyPresenter.swift */; };
+		82BF906C287974D600D6E995 /* AnyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF906B287974D600D6E995 /* AnyRouter.swift */; };
+		82BF90702879754900D6E995 /* NutritionValueQuickLookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF906F2879754900D6E995 /* NutritionValueQuickLookVC.swift */; };
+		82BF9072287975BC00D6E995 /* NutritionValueQuickLookRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9071287975BC00D6E995 /* NutritionValueQuickLookRouter.swift */; };
+		82BF9074287975F200D6E995 /* NutritionValueQuickLookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9073287975F200D6E995 /* NutritionValueQuickLookPresenter.swift */; };
+		82BF90762879762200D6E995 /* NutritionValueQuickLookIntractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90752879762200D6E995 /* NutritionValueQuickLookIntractor.swift */; };
+		82BF90782879764500D6E995 /* NutritionValueQuickLookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90772879764500D6E995 /* NutritionValueQuickLookView.swift */; };
+		82BF907B2879774A00D6E995 /* BaseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF907A2879774A00D6E995 /* BaseEntity.swift */; };
+		82BF907D2879776C00D6E995 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF907C2879776C00D6E995 /* Meta.swift */; };
+		82BF907F2879779B00D6E995 /* Foodipedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF907E2879779B00D6E995 /* Foodipedia.swift */; };
+		82BF9084287979FE00D6E995 /* APIErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9083287979FE00D6E995 /* APIErrorHandler.swift */; };
+		82BF908728797A6700D6E995 /* MultiMoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF908628797A6700D6E995 /* MultiMoyaProvider.swift */; };
+		82BF908A28797A9A00D6E995 /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF908928797A9A00D6E995 /* APIConfiguration.swift */; };
+		82BF908C28797AB800D6E995 /* FoodipediaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF908B28797AB800D6E995 /* FoodipediaAPI.swift */; };
+		82BF908E28797AE000D6E995 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF908D28797AE000D6E995 /* APIManager.swift */; };
+		82BF909128797B7900D6E995 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF909028797B7900D6E995 /* GradientView.swift */; };
+		82BF909328797BB900D6E995 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF909228797BB900D6E995 /* GradientButton.swift */; };
+		82BF909628797D6B00D6E995 /* Enviornment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF909528797D6B00D6E995 /* Enviornment.swift */; };
+		82BF909828797D8900D6E995 /* FullscreenLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF909728797D8900D6E995 /* FullscreenLoader.swift */; };
+		82BF909B28797E3000D6E995 /* MoyaError+APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF909A28797E3000D6E995 /* MoyaError+APIError.swift */; };
+		82BF909F28797ED500D6E995 /* green-eco-earth-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 82BF909E28797ED500D6E995 /* green-eco-earth-animation.json */; };
+		82BF90A228797F5100D6E995 /* TestNutritionValueQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */; };
+		82BF90A428797FBF00D6E995 /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A328797FBF00D6E995 /* NSObject+className.swift */; };
+		82BF90A82879806B00D6E995 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A72879806B00D6E995 /* TestExtensions.swift */; };
+		82BF90AB2879B73D00D6E995 /* NutritionValueDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */; };
+		82BF90AD2879B77000D6E995 /* NutritionValueTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */; };
+		82BF90B22879B7C200D6E995 /* NutritionValueTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */; };
+		82BF90B52879B81700D6E995 /* NutritionDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */; };
+		82BF90B72879BB6F00D6E995 /* NutritionValueDetailVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */; };
+		82BF90BA2879BC3200D6E995 /* NutritionDetailManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */; };
 		F7188EA8EE34374E325B3D65 /* Pods_LifeSumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F756A476C7E22D3594289EBD /* Pods_LifeSumTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +75,6 @@
 		82BF9031287963FA00D6E995 /* LifeSum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9034287963FA00D6E995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BF9036287963FA00D6E995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		82BF9038287963FA00D6E995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		82BF903B287963FA00D6E995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82BF903D287963FE00D6E995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82BF9040287963FE00D6E995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +84,38 @@
 		82BF9051287963FE00D6E995 /* LifeSumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9055287963FE00D6E995 /* LifeSumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSumUITests.swift; sourceTree = "<group>"; };
 		82BF9057287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82BF90652879747F00D6E995 /* AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyView.swift; sourceTree = "<group>"; };
+		82BF90672879749F00D6E995 /* AnyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyInteractor.swift; sourceTree = "<group>"; };
+		82BF9069287974B700D6E995 /* AnyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyPresenter.swift; sourceTree = "<group>"; };
+		82BF906B287974D600D6E995 /* AnyRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyRouter.swift; sourceTree = "<group>"; };
+		82BF906F2879754900D6E995 /* NutritionValueQuickLookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueQuickLookVC.swift; sourceTree = "<group>"; };
+		82BF9071287975BC00D6E995 /* NutritionValueQuickLookRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueQuickLookRouter.swift; sourceTree = "<group>"; };
+		82BF9073287975F200D6E995 /* NutritionValueQuickLookPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueQuickLookPresenter.swift; sourceTree = "<group>"; };
+		82BF90752879762200D6E995 /* NutritionValueQuickLookIntractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueQuickLookIntractor.swift; sourceTree = "<group>"; };
+		82BF90772879764500D6E995 /* NutritionValueQuickLookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueQuickLookView.swift; sourceTree = "<group>"; };
+		82BF907A2879774A00D6E995 /* BaseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEntity.swift; sourceTree = "<group>"; };
+		82BF907C2879776C00D6E995 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		82BF907E2879779B00D6E995 /* Foodipedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foodipedia.swift; sourceTree = "<group>"; };
+		82BF9083287979FE00D6E995 /* APIErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorHandler.swift; sourceTree = "<group>"; };
+		82BF908628797A6700D6E995 /* MultiMoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiMoyaProvider.swift; sourceTree = "<group>"; };
+		82BF908928797A9A00D6E995 /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		82BF908B28797AB800D6E995 /* FoodipediaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodipediaAPI.swift; sourceTree = "<group>"; };
+		82BF908D28797AE000D6E995 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		82BF909028797B7900D6E995 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		82BF909228797BB900D6E995 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		82BF909528797D6B00D6E995 /* Enviornment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviornment.swift; sourceTree = "<group>"; };
+		82BF909728797D8900D6E995 /* FullscreenLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenLoader.swift; sourceTree = "<group>"; };
+		82BF909A28797E3000D6E995 /* MoyaError+APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaError+APIError.swift"; sourceTree = "<group>"; };
+		82BF909E28797ED500D6E995 /* green-eco-earth-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "green-eco-earth-animation.json"; sourceTree = "<group>"; };
+		82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNutritionValueQuickLook.swift; sourceTree = "<group>"; };
+		82BF90A328797FBF00D6E995 /* NSObject+className.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
+		82BF90A72879806B00D6E995 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
+		82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueDetailVC.swift; sourceTree = "<group>"; };
+		82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueTableViewHandler.swift; sourceTree = "<group>"; };
+		82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueTVC.swift; sourceTree = "<group>"; };
+		82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailManager.swift; sourceTree = "<group>"; };
+		82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueDetailVCTest.swift; sourceTree = "<group>"; };
+		82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailManagerTest.swift; sourceTree = "<group>"; };
 		910DE2D404997A55DCB95326 /* Pods_LifeSum_LifeSumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSum_LifeSumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B01C99D42C52A69CE57078 /* Pods-LifeSum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum.debug.xcconfig"; path = "Target Support Files/Pods-LifeSum/Pods-LifeSum.debug.xcconfig"; sourceTree = "<group>"; };
 		BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSumTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSumTests/Pods-LifeSumTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +173,6 @@
 				BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */,
 				CA2F4515BE84213EDAB595EC /* Pods-LifeSumTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +201,15 @@
 		82BF9033287963FA00D6E995 /* LifeSum */ = {
 			isa = PBXGroup;
 			children = (
-				82BF9034287963FA00D6E995 /* AppDelegate.swift */,
-				82BF9036287963FA00D6E995 /* SceneDelegate.swift */,
-				82BF9038287963FA00D6E995 /* ViewController.swift */,
-				82BF903A287963FA00D6E995 /* Main.storyboard */,
-				82BF903D287963FE00D6E995 /* Assets.xcassets */,
-				82BF903F287963FE00D6E995 /* LaunchScreen.storyboard */,
-				82BF9042287963FE00D6E995 /* Info.plist */,
+				82BF90B32879B7FF00D6E995 /* Managers */,
+				82BF909C28797EA100D6E995 /* Supporting Files */,
+				82BF909928797E1C00D6E995 /* Extensions */,
+				82BF909428797D5700D6E995 /* Utilities */,
+				82BF908F28797B6000D6E995 /* IBDesignable */,
+				82BF9080287979CB00D6E995 /* Services */,
+				82BF90792879773700D6E995 /* Entities */,
+				82BF906D2879750700D6E995 /* App */,
+				82BF90642879746800D6E995 /* Structure */,
 			);
 			path = LifeSum;
 			sourceTree = "<group>";
@@ -154,7 +217,10 @@
 		82BF904A287963FE00D6E995 /* LifeSumTests */ = {
 			isa = PBXGroup;
 			children = (
+				82BF90B82879BC1E00D6E995 /* TestModels */,
+				82BF90A028797F2F00D6E995 /* Test ViewControllers */,
 				82BF904B287963FE00D6E995 /* LifeSumTests.swift */,
+				82BF90A72879806B00D6E995 /* TestExtensions.swift */,
 			);
 			path = LifeSumTests;
 			sourceTree = "<group>";
@@ -166,6 +232,184 @@
 				82BF9057287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift */,
 			);
 			path = LifeSumUITests;
+			sourceTree = "<group>";
+		};
+		82BF90642879746800D6E995 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90652879747F00D6E995 /* AnyView.swift */,
+				82BF90672879749F00D6E995 /* AnyInteractor.swift */,
+				82BF9069287974B700D6E995 /* AnyPresenter.swift */,
+				82BF906B287974D600D6E995 /* AnyRouter.swift */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		82BF906D2879750700D6E995 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90A92879B70900D6E995 /* NutritionValueDetail */,
+				82BF903A287963FA00D6E995 /* Main.storyboard */,
+				82BF906E2879752200D6E995 /* NutritionValueQuickLook */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		82BF906E2879752200D6E995 /* NutritionValueQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				82BF906F2879754900D6E995 /* NutritionValueQuickLookVC.swift */,
+				82BF9071287975BC00D6E995 /* NutritionValueQuickLookRouter.swift */,
+				82BF9073287975F200D6E995 /* NutritionValueQuickLookPresenter.swift */,
+				82BF90752879762200D6E995 /* NutritionValueQuickLookIntractor.swift */,
+				82BF90772879764500D6E995 /* NutritionValueQuickLookView.swift */,
+			);
+			path = NutritionValueQuickLook;
+			sourceTree = "<group>";
+		};
+		82BF90792879773700D6E995 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				82BF907A2879774A00D6E995 /* BaseEntity.swift */,
+				82BF907C2879776C00D6E995 /* Meta.swift */,
+				82BF907E2879779B00D6E995 /* Foodipedia.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		82BF9080287979CB00D6E995 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9081287979DB00D6E995 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		82BF9081287979DB00D6E995 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				82BF908828797A8800D6E995 /* API */,
+				82BF908528797A5600D6E995 /* Moya */,
+				82BF9082287979E800D6E995 /* API Error */,
+				82BF908D28797AE000D6E995 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		82BF9082287979E800D6E995 /* API Error */ = {
+			isa = PBXGroup;
+			children = (
+				82BF9083287979FE00D6E995 /* APIErrorHandler.swift */,
+			);
+			path = "API Error";
+			sourceTree = "<group>";
+		};
+		82BF908528797A5600D6E995 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				82BF908628797A6700D6E995 /* MultiMoyaProvider.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		82BF908828797A8800D6E995 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				82BF908928797A9A00D6E995 /* APIConfiguration.swift */,
+				82BF908B28797AB800D6E995 /* FoodipediaAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		82BF908F28797B6000D6E995 /* IBDesignable */ = {
+			isa = PBXGroup;
+			children = (
+				82BF909028797B7900D6E995 /* GradientView.swift */,
+				82BF909228797BB900D6E995 /* GradientButton.swift */,
+			);
+			path = IBDesignable;
+			sourceTree = "<group>";
+		};
+		82BF909428797D5700D6E995 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				82BF909528797D6B00D6E995 /* Enviornment.swift */,
+				82BF909728797D8900D6E995 /* FullscreenLoader.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		82BF909928797E1C00D6E995 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82BF909A28797E3000D6E995 /* MoyaError+APIError.swift */,
+				82BF90A328797FBF00D6E995 /* NSObject+className.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82BF909C28797EA100D6E995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BF909D28797EB100D6E995 /* Lottie Animations */,
+				82BF9034287963FA00D6E995 /* AppDelegate.swift */,
+				82BF9036287963FA00D6E995 /* SceneDelegate.swift */,
+				82BF903F287963FE00D6E995 /* LaunchScreen.storyboard */,
+				82BF903D287963FE00D6E995 /* Assets.xcassets */,
+				82BF9042287963FE00D6E995 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82BF909D28797EB100D6E995 /* Lottie Animations */ = {
+			isa = PBXGroup;
+			children = (
+				82BF909E28797ED500D6E995 /* green-eco-earth-animation.json */,
+			);
+			path = "Lottie Animations";
+			sourceTree = "<group>";
+		};
+		82BF90A028797F2F00D6E995 /* Test ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */,
+				82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */,
+			);
+			path = "Test ViewControllers";
+			sourceTree = "<group>";
+		};
+		82BF90A92879B70900D6E995 /* NutritionValueDetail */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90AE2879B79600D6E995 /* Cells */,
+				82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */,
+				82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */,
+			);
+			path = NutritionValueDetail;
+			sourceTree = "<group>";
+		};
+		82BF90AE2879B79600D6E995 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		82BF90B32879B7FF00D6E995 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		82BF90B82879BC1E00D6E995 /* TestModels */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */,
+			);
+			path = TestModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +522,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BF9041287963FE00D6E995 /* LaunchScreen.storyboard in Resources */,
+				82BF909F28797ED500D6E995 /* green-eco-earth-animation.json in Resources */,
 				82BF903E287963FE00D6E995 /* Assets.xcassets in Resources */,
 				82BF903C287963FB00D6E995 /* Main.storyboard in Resources */,
 			);
@@ -407,9 +652,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BF9039287963FA00D6E995 /* ViewController.swift in Sources */,
+				82BF90AD2879B77000D6E995 /* NutritionValueTableViewHandler.swift in Sources */,
+				82BF906A287974B700D6E995 /* AnyPresenter.swift in Sources */,
+				82BF9084287979FE00D6E995 /* APIErrorHandler.swift in Sources */,
+				82BF90782879764500D6E995 /* NutritionValueQuickLookView.swift in Sources */,
 				82BF9035287963FA00D6E995 /* AppDelegate.swift in Sources */,
+				82BF90B52879B81700D6E995 /* NutritionDetailManager.swift in Sources */,
 				82BF9037287963FA00D6E995 /* SceneDelegate.swift in Sources */,
+				82BF908728797A6700D6E995 /* MultiMoyaProvider.swift in Sources */,
+				82BF90682879749F00D6E995 /* AnyInteractor.swift in Sources */,
+				82BF908C28797AB800D6E995 /* FoodipediaAPI.swift in Sources */,
+				82BF90A428797FBF00D6E995 /* NSObject+className.swift in Sources */,
+				82BF90662879747F00D6E995 /* AnyView.swift in Sources */,
+				82BF90702879754900D6E995 /* NutritionValueQuickLookVC.swift in Sources */,
+				82BF909828797D8900D6E995 /* FullscreenLoader.swift in Sources */,
+				82BF909128797B7900D6E995 /* GradientView.swift in Sources */,
+				82BF9072287975BC00D6E995 /* NutritionValueQuickLookRouter.swift in Sources */,
+				82BF908E28797AE000D6E995 /* APIManager.swift in Sources */,
+				82BF90762879762200D6E995 /* NutritionValueQuickLookIntractor.swift in Sources */,
+				82BF909328797BB900D6E995 /* GradientButton.swift in Sources */,
+				82BF907F2879779B00D6E995 /* Foodipedia.swift in Sources */,
+				82BF908A28797A9A00D6E995 /* APIConfiguration.swift in Sources */,
+				82BF9074287975F200D6E995 /* NutritionValueQuickLookPresenter.swift in Sources */,
+				82BF907B2879774A00D6E995 /* BaseEntity.swift in Sources */,
+				82BF907D2879776C00D6E995 /* Meta.swift in Sources */,
+				82BF909628797D6B00D6E995 /* Enviornment.swift in Sources */,
+				82BF90B22879B7C200D6E995 /* NutritionValueTVC.swift in Sources */,
+				82BF906C287974D600D6E995 /* AnyRouter.swift in Sources */,
+				82BF90AB2879B73D00D6E995 /* NutritionValueDetailVC.swift in Sources */,
+				82BF909B28797E3000D6E995 /* MoyaError+APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +688,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BF90B72879BB6F00D6E995 /* NutritionValueDetailVCTest.swift in Sources */,
 				82BF904C287963FE00D6E995 /* LifeSumTests.swift in Sources */,
+				82BF90A82879806B00D6E995 /* TestExtensions.swift in Sources */,
+				82BF90A228797F5100D6E995 /* TestNutritionValueQuickLook.swift in Sources */,
+				82BF90BA2879BC3200D6E995 /* NutritionDetailManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,12 +865,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LifeSum/Info.plist;
+				INFOPLIST_FILE = "LifeSum/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,12 +894,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LifeSum/Info.plist;
+				INFOPLIST_FILE = "LifeSum/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
