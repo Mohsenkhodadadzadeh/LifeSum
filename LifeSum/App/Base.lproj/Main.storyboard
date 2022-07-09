@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzF-Wr-UCa" customClass="GradientButton" customModule="LIfesum3" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HzF-Wr-UCa" customClass="GradientButton" customModule="LifeSum" customModuleProvider="target">
                                 <rect key="frame" x="117" y="363" width="180" height="180"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="sKL-c0-X3T"/>
@@ -57,7 +57,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOf-Lt-m9V" customClass="GradientView" customModule="LIfesum3" customModuleProvider="target">
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zOf-Lt-m9V" customClass="GradientView" customModule="LifeSum" customModuleProvider="target">
                                 <rect key="frame" x="82" y="101.5" width="250" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ozz-k3-4xE">
@@ -210,7 +210,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bec-xk-XcO" customClass="GradientButton" customModule="LIfesum3" customModuleProvider="target">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bec-xk-XcO" customClass="GradientButton" customModule="LifeSum" customModuleProvider="target">
                                 <rect key="frame" x="83" y="752" width="248" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="Qg4-SO-752"/>
@@ -249,6 +249,9 @@
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="hBK-td-4Yf" kind="showDetail" id="grq-S5-WWH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -284,6 +287,78 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20" y="84"/>
+        </scene>
+        <!--Nutrition Value DetailVC-->
+        <scene sceneID="Dga-4U-OuK">
+            <objects>
+                <viewController storyboardIdentifier="NutritionValueDetailVC" id="hBK-td-4Yf" customClass="NutritionValueDetailVC" customModule="LifeSum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wX7-n3-R2n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nutrition Info:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecX-fp-9iq">
+                                <rect key="frame" x="20" y="50" width="90" height="20"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="sUD-lp-Dqp">
+                                <rect key="frame" x="10" y="85" width="394" height="713"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NutritionValueTVC" id="h3s-cb-UUJ" customClass="NutritionValueTVC" customModule="LIfesum3" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="394" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h3s-cb-UUJ" id="OQQ-U0-rmP">
+                                            <rect key="frame" x="0.0" y="0.0" width="394" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42R-IC-LTx">
+                                                    <rect key="frame" x="15" y="12" width="34.5" height="19.5"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ca-uK-AuE">
+                                                    <rect key="frame" x="347" y="13" width="32" height="18"/>
+                                                    <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="0ca-uK-AuE" secondAttribute="trailing" constant="15" id="0Wi-TW-7Zk"/>
+                                                <constraint firstItem="0ca-uK-AuE" firstAttribute="centerY" secondItem="OQQ-U0-rmP" secondAttribute="centerY" id="BCx-yP-GMY"/>
+                                                <constraint firstItem="42R-IC-LTx" firstAttribute="centerY" secondItem="OQQ-U0-rmP" secondAttribute="centerY" id="YxH-cu-zu8"/>
+                                                <constraint firstItem="42R-IC-LTx" firstAttribute="leading" secondItem="OQQ-U0-rmP" secondAttribute="leading" constant="15" id="uSk-hw-sVp"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="42R-IC-LTx" id="fZw-fr-jNr"/>
+                                            <outlet property="valueLabel" destination="0ca-uK-AuE" id="zEw-Eg-Xir"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="A44-AQ-N9Y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ecX-fp-9iq" firstAttribute="leading" secondItem="A44-AQ-N9Y" secondAttribute="leading" constant="20" id="JGE-Ep-x6F"/>
+                            <constraint firstItem="A44-AQ-N9Y" firstAttribute="trailing" secondItem="sUD-lp-Dqp" secondAttribute="trailing" constant="10" id="JrT-NB-Rpj"/>
+                            <constraint firstItem="ecX-fp-9iq" firstAttribute="top" secondItem="A44-AQ-N9Y" secondAttribute="top" constant="50" id="dLl-89-SZz"/>
+                            <constraint firstItem="sUD-lp-Dqp" firstAttribute="leading" secondItem="A44-AQ-N9Y" secondAttribute="leading" constant="10" id="fwH-L2-ORp"/>
+                            <constraint firstItem="sUD-lp-Dqp" firstAttribute="top" secondItem="ecX-fp-9iq" secondAttribute="bottom" constant="15" id="ie1-vX-ian"/>
+                            <constraint firstItem="A44-AQ-N9Y" firstAttribute="bottom" secondItem="sUD-lp-Dqp" secondAttribute="bottom" constant="10" id="tx1-Kf-HWp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="sUD-lp-Dqp" id="epa-Vc-fgH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="08p-nG-tkL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="922" y="94"/>
         </scene>
     </scenes>
     <designables>

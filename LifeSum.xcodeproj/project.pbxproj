@@ -43,6 +43,12 @@
 		82BF90A228797F5100D6E995 /* TestNutritionValueQuickLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */; };
 		82BF90A428797FBF00D6E995 /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A328797FBF00D6E995 /* NSObject+className.swift */; };
 		82BF90A82879806B00D6E995 /* TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90A72879806B00D6E995 /* TestExtensions.swift */; };
+		82BF90AB2879B73D00D6E995 /* NutritionValueDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */; };
+		82BF90AD2879B77000D6E995 /* NutritionValueTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */; };
+		82BF90B22879B7C200D6E995 /* NutritionValueTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */; };
+		82BF90B52879B81700D6E995 /* NutritionDetailManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */; };
+		82BF90B72879BB6F00D6E995 /* NutritionValueDetailVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */; };
+		82BF90BA2879BC3200D6E995 /* NutritionDetailManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */; };
 		F7188EA8EE34374E325B3D65 /* Pods_LifeSumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F756A476C7E22D3594289EBD /* Pods_LifeSumTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +110,12 @@
 		82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNutritionValueQuickLook.swift; sourceTree = "<group>"; };
 		82BF90A328797FBF00D6E995 /* NSObject+className.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
 		82BF90A72879806B00D6E995 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
+		82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueDetailVC.swift; sourceTree = "<group>"; };
+		82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueTableViewHandler.swift; sourceTree = "<group>"; };
+		82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueTVC.swift; sourceTree = "<group>"; };
+		82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailManager.swift; sourceTree = "<group>"; };
+		82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionValueDetailVCTest.swift; sourceTree = "<group>"; };
+		82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDetailManagerTest.swift; sourceTree = "<group>"; };
 		910DE2D404997A55DCB95326 /* Pods_LifeSum_LifeSumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSum_LifeSumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B01C99D42C52A69CE57078 /* Pods-LifeSum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum.debug.xcconfig"; path = "Target Support Files/Pods-LifeSum/Pods-LifeSum.debug.xcconfig"; sourceTree = "<group>"; };
 		BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSumTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSumTests/Pods-LifeSumTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +201,7 @@
 		82BF9033287963FA00D6E995 /* LifeSum */ = {
 			isa = PBXGroup;
 			children = (
+				82BF90B32879B7FF00D6E995 /* Managers */,
 				82BF909C28797EA100D6E995 /* Supporting Files */,
 				82BF909928797E1C00D6E995 /* Extensions */,
 				82BF909428797D5700D6E995 /* Utilities */,
@@ -204,6 +217,7 @@
 		82BF904A287963FE00D6E995 /* LifeSumTests */ = {
 			isa = PBXGroup;
 			children = (
+				82BF90B82879BC1E00D6E995 /* TestModels */,
 				82BF90A028797F2F00D6E995 /* Test ViewControllers */,
 				82BF904B287963FE00D6E995 /* LifeSumTests.swift */,
 				82BF90A72879806B00D6E995 /* TestExtensions.swift */,
@@ -234,6 +248,7 @@
 		82BF906D2879750700D6E995 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				82BF90A92879B70900D6E995 /* NutritionValueDetail */,
 				82BF903A287963FA00D6E995 /* Main.storyboard */,
 				82BF906E2879752200D6E995 /* NutritionValueQuickLook */,
 			);
@@ -358,8 +373,43 @@
 			isa = PBXGroup;
 			children = (
 				82BF90A128797F5100D6E995 /* TestNutritionValueQuickLook.swift */,
+				82BF90B62879BB6F00D6E995 /* NutritionValueDetailVCTest.swift */,
 			);
 			path = "Test ViewControllers";
+			sourceTree = "<group>";
+		};
+		82BF90A92879B70900D6E995 /* NutritionValueDetail */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90AE2879B79600D6E995 /* Cells */,
+				82BF90AA2879B73D00D6E995 /* NutritionValueDetailVC.swift */,
+				82BF90AC2879B77000D6E995 /* NutritionValueTableViewHandler.swift */,
+			);
+			path = NutritionValueDetail;
+			sourceTree = "<group>";
+		};
+		82BF90AE2879B79600D6E995 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B12879B7C200D6E995 /* NutritionValueTVC.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		82BF90B32879B7FF00D6E995 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B42879B81700D6E995 /* NutritionDetailManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		82BF90B82879BC1E00D6E995 /* TestModels */ = {
+			isa = PBXGroup;
+			children = (
+				82BF90B92879BC3200D6E995 /* NutritionDetailManagerTest.swift */,
+			);
+			path = TestModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -602,10 +652,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BF90AD2879B77000D6E995 /* NutritionValueTableViewHandler.swift in Sources */,
 				82BF906A287974B700D6E995 /* AnyPresenter.swift in Sources */,
 				82BF9084287979FE00D6E995 /* APIErrorHandler.swift in Sources */,
 				82BF90782879764500D6E995 /* NutritionValueQuickLookView.swift in Sources */,
 				82BF9035287963FA00D6E995 /* AppDelegate.swift in Sources */,
+				82BF90B52879B81700D6E995 /* NutritionDetailManager.swift in Sources */,
 				82BF9037287963FA00D6E995 /* SceneDelegate.swift in Sources */,
 				82BF908728797A6700D6E995 /* MultiMoyaProvider.swift in Sources */,
 				82BF90682879749F00D6E995 /* AnyInteractor.swift in Sources */,
@@ -625,7 +677,9 @@
 				82BF907B2879774A00D6E995 /* BaseEntity.swift in Sources */,
 				82BF907D2879776C00D6E995 /* Meta.swift in Sources */,
 				82BF909628797D6B00D6E995 /* Enviornment.swift in Sources */,
+				82BF90B22879B7C200D6E995 /* NutritionValueTVC.swift in Sources */,
 				82BF906C287974D600D6E995 /* AnyRouter.swift in Sources */,
+				82BF90AB2879B73D00D6E995 /* NutritionValueDetailVC.swift in Sources */,
 				82BF909B28797E3000D6E995 /* MoyaError+APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,9 +688,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82BF90B72879BB6F00D6E995 /* NutritionValueDetailVCTest.swift in Sources */,
 				82BF904C287963FE00D6E995 /* LifeSumTests.swift in Sources */,
 				82BF90A82879806B00D6E995 /* TestExtensions.swift in Sources */,
 				82BF90A228797F5100D6E995 /* TestNutritionValueQuickLook.swift in Sources */,
+				82BF90BA2879BC3200D6E995 /* NutritionDetailManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
