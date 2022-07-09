@@ -1,0 +1,6 @@
+framework module Pods_LifeSumTests {
+  umbrella header "Pods-LifeSumTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
