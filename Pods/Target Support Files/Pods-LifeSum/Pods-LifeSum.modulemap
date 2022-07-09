@@ -1,0 +1,6 @@
+framework module Pods_LifeSum {
+  umbrella header "Pods-LifeSum-umbrella.h"
+
+  export *
+  module * { export * }
+}
