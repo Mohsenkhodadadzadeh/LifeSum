@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FE8BB523D1A9FB8F537CC92 /* Pods_LifeSum_LifeSumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910DE2D404997A55DCB95326 /* Pods_LifeSum_LifeSumUITests.framework */; };
+		5B865EF9B4D1DA24788528F1 /* Pods_LifeSum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4474B18F76034BD8E7FAE5C /* Pods_LifeSum.framework */; };
 		82BF9035287963FA00D6E995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9034287963FA00D6E995 /* AppDelegate.swift */; };
 		82BF9037287963FA00D6E995 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9036287963FA00D6E995 /* SceneDelegate.swift */; };
 		82BF9039287963FA00D6E995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9038287963FA00D6E995 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		82BF904C287963FE00D6E995 /* LifeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF904B287963FE00D6E995 /* LifeSumTests.swift */; };
 		82BF9056287963FE00D6E995 /* LifeSumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9055287963FE00D6E995 /* LifeSumUITests.swift */; };
 		82BF9058287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BF9057287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift */; };
+		F7188EA8EE34374E325B3D65 /* Pods_LifeSumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F756A476C7E22D3594289EBD /* Pods_LifeSumTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38C2DE28E5851BE0EB8E0BC8 /* Pods-LifeSum-LifeSumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum-LifeSumUITests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSum-LifeSumUITests/Pods-LifeSum-LifeSumUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A51BC42C17C84DF38154A56 /* Pods-LifeSum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum.release.xcconfig"; path = "Target Support Files/Pods-LifeSum/Pods-LifeSum.release.xcconfig"; sourceTree = "<group>"; };
 		82BF9031287963FA00D6E995 /* LifeSum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeSum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9034287963FA00D6E995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82BF9036287963FA00D6E995 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		82BF9051287963FE00D6E995 /* LifeSumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeSumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BF9055287963FE00D6E995 /* LifeSumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSumUITests.swift; sourceTree = "<group>"; };
 		82BF9057287963FE00D6E995 /* LifeSumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeSumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		910DE2D404997A55DCB95326 /* Pods_LifeSum_LifeSumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSum_LifeSumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B01C99D42C52A69CE57078 /* Pods-LifeSum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum.debug.xcconfig"; path = "Target Support Files/Pods-LifeSum/Pods-LifeSum.debug.xcconfig"; sourceTree = "<group>"; };
+		BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSumTests.debug.xcconfig"; path = "Target Support Files/Pods-LifeSumTests/Pods-LifeSumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C048CA7D88CD0405B3092BCE /* Pods-LifeSum-LifeSumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSum-LifeSumUITests.release.xcconfig"; path = "Target Support Files/Pods-LifeSum-LifeSumUITests/Pods-LifeSum-LifeSumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4474B18F76034BD8E7FAE5C /* Pods_LifeSum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2F4515BE84213EDAB595EC /* Pods-LifeSumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeSumTests.release.xcconfig"; path = "Target Support Files/Pods-LifeSumTests/Pods-LifeSumTests.release.xcconfig"; sourceTree = "<group>"; };
+		F756A476C7E22D3594289EBD /* Pods_LifeSumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeSumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B865EF9B4D1DA24788528F1 /* Pods_LifeSum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7188EA8EE34374E325B3D65 /* Pods_LifeSumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE8BB523D1A9FB8F537CC92 /* Pods_LifeSum_LifeSumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ABA4ADDD54C3ABB98A97E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4474B18F76034BD8E7FAE5C /* Pods_LifeSum.framework */,
+				910DE2D404997A55DCB95326 /* Pods_LifeSum_LifeSumUITests.framework */,
+				F756A476C7E22D3594289EBD /* Pods_LifeSumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A8EDA81984C106852E9692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8B01C99D42C52A69CE57078 /* Pods-LifeSum.debug.xcconfig */,
+				4A51BC42C17C84DF38154A56 /* Pods-LifeSum.release.xcconfig */,
+				38C2DE28E5851BE0EB8E0BC8 /* Pods-LifeSum-LifeSumUITests.debug.xcconfig */,
+				C048CA7D88CD0405B3092BCE /* Pods-LifeSum-LifeSumUITests.release.xcconfig */,
+				BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */,
+				CA2F4515BE84213EDAB595EC /* Pods-LifeSumTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		82BF9028287963FA00D6E995 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				82BF904A287963FE00D6E995 /* LifeSumTests */,
 				82BF9054287963FE00D6E995 /* LifeSumUITests */,
 				82BF9032287963FA00D6E995 /* Products */,
+				41A8EDA81984C106852E9692 /* Pods */,
+				0ABA4ADDD54C3ABB98A97E35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BF905B287963FE00D6E995 /* Build configuration list for PBXNativeTarget "LifeSum" */;
 			buildPhases = (
+				B93EF87557D3E03FDFE13BFB /* [CP] Check Pods Manifest.lock */,
 				82BF902D287963FA00D6E995 /* Sources */,
 				82BF902E287963FA00D6E995 /* Frameworks */,
 				82BF902F287963FA00D6E995 /* Resources */,
+				448EB145C9CAAF09ABDEFFCC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BF905E287963FE00D6E995 /* Build configuration list for PBXNativeTarget "LifeSumTests" */;
 			buildPhases = (
+				343747B2C3508BAE59ECCB7B /* [CP] Check Pods Manifest.lock */,
 				82BF9043287963FE00D6E995 /* Sources */,
 				82BF9044287963FE00D6E995 /* Frameworks */,
 				82BF9045287963FE00D6E995 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82BF9061287963FE00D6E995 /* Build configuration list for PBXNativeTarget "LifeSumUITests" */;
 			buildPhases = (
+				3CA71AEBABE97ACD813E0CE4 /* [CP] Check Pods Manifest.lock */,
 				82BF904D287963FE00D6E995 /* Sources */,
 				82BF904E287963FE00D6E995 /* Frameworks */,
 				82BF904F287963FE00D6E995 /* Resources */,
+				1DBE99C223322A814852A7E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DBE99C223322A814852A7E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSum-LifeSumUITests/Pods-LifeSum-LifeSumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSum-LifeSumUITests/Pods-LifeSum-LifeSumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeSum-LifeSumUITests/Pods-LifeSum-LifeSumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		343747B2C3508BAE59ECCB7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA71AEBABE97ACD813E0CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSum-LifeSumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		448EB145C9CAAF09ABDEFFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSum/Pods-LifeSum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LifeSum/Pods-LifeSum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LifeSum/Pods-LifeSum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93EF87557D3E03FDFE13BFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeSum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82BF902D287963FA00D6E995 /* Sources */ = {
@@ -434,6 +583,7 @@
 		};
 		82BF905C287963FE00D6E995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B01C99D42C52A69CE57078 /* Pods-LifeSum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +611,7 @@
 		};
 		82BF905D287963FE00D6E995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A51BC42C17C84DF38154A56 /* Pods-LifeSum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +639,7 @@
 		};
 		82BF905F287963FE00D6E995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE080C639AEFCB4B042D0B0B /* Pods-LifeSumTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +659,7 @@
 		};
 		82BF9060287963FE00D6E995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2F4515BE84213EDAB595EC /* Pods-LifeSumTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +679,7 @@
 		};
 		82BF9062287963FE00D6E995 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C2DE28E5851BE0EB8E0BC8 /* Pods-LifeSum-LifeSumUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		82BF9063287963FE00D6E995 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C048CA7D88CD0405B3092BCE /* Pods-LifeSum-LifeSumUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
